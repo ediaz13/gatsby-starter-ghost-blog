@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://emadiazdev-7e5b253ef9bb.herokuapp.com",
+    "apiUrl": "https://emadiazdev.herokuapp.com",
     "contentApiKey": "25b4ffa3a37de9bfd04fe3801f"
   },
   "production": {
-    "apiUrl": "https://emadiazdev-7e5b253ef9bb.herokuapp.com",
+    "apiUrl": "https://emadiazdev.herokuapp.com",
     "contentApiKey": "25b4ffa3a37de9bfd04fe3801f"
   }
 }
