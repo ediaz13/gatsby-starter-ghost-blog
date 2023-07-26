@@ -2,8 +2,8 @@ const config = require(`../../.ghost.json`).production;
 module.exports = {
     siteUrl:
         process.env.NODE_ENV === `production`
-            ? process.env.SITE_URL || config.siteUrl || `http://emadiazdev.netlify.app`
-            : `http://emadiazdev.netlify.app`, // Site domain. Do not include a trailing slash!
+            ? process.env.SITE_URL || config.siteUrl || `https://emadiazdev-7e5b253ef9bb.herokuapp.com`
+            : `https://emadiazdev-7e5b253ef9bb.herokuapp.com`, // Site domain. Do not include a trailing slash!
 
     postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
